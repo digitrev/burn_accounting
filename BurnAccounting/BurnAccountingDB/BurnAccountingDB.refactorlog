@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="a7dfcc34-1928-4d32-a77d-8454194bc62a" ChangeDateTime="12/27/2023 15:13:22">
+    <Property Name="ElementName" Value="[dbo].[Sequence1]" />
+    <Property Name="ElementType" Value="SqlSequence" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[BankTransactionSeq]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fa6d3df0-3a56-4b91-bbb0-675654022e72" ChangeDateTime="12/27/2023 15:13:37">
+    <Property Name="ElementName" Value="[dbo].[BankTransaction].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BankTransaction]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BankTransactionID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c03e68a7-c93c-4c1c-b35e-c23c978e4ef1" ChangeDateTime="12/27/2023 15:20:02">
+    <Property Name="ElementName" Value="[dbo].[BankAccount].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BankAccount]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BankAccountID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ae7e5089-dc67-4e16-af09-b2674056ecc2" ChangeDateTime="12/27/2023 15:21:03">
+    <Property Name="ElementName" Value="[dbo].[BankTransaction].[TransactionDescription]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BankTransaction]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Memo" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a2bfc2ba-c570-4504-858e-e92d8e9b38d9" ChangeDateTime="12/27/2023 15:21:47">
+    <Property Name="ElementName" Value="[dbo].[Voucher].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Voucher]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VoucherID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="53430b24-03aa-41bb-8ee3-7dfa2b4e12cf" ChangeDateTime="12/27/2023 15:26:57">
+    <Property Name="ElementName" Value="[dbo].[BankAccount]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Account]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="801cbf4b-36d1-43db-be2b-bdf3f9a52a18" ChangeDateTime="12/27/2023 15:27:04">
+    <Property Name="ElementName" Value="[dbo].[Account].[BankAccountID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Account]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[AccountID]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2e34c1dd-5f2a-498f-a960-d55e6258f121" ChangeDateTime="12/27/2023 15:27:08">
+    <Property Name="ElementName" Value="[dbo].[Account].[BankAccountName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Account]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[AccountName]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="09967633-cc09-431c-9b2e-e44f06b7a7f7" ChangeDateTime="12/27/2023 15:27:14">
+    <Property Name="ElementName" Value="[dbo].[PK_BankAccount]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Account]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[PK_Account]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="18edc569-41cb-490b-8707-e32af0f0bb6c" ChangeDateTime="12/27/2023 15:27:40">
+    <Property Name="ElementName" Value="[dbo].[Account].[AccountType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Account]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AccountTypeID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a554aecc-5172-46b6-bad6-5a582fbfbf6e" ChangeDateTime="12/27/2023 15:27:50">
+    <Property Name="ElementName" Value="[dbo].[AccountType].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AccountType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AccountTypeID" />
+  </Operation>
+</Operations>
